@@ -1,0 +1,170 @@
+/* Navbar*/
+
+.navbar{
+  background-color: #251704;
+}
+.logo img{
+  height: 3rem;
+  margin: 0 1.75rem;
+}
+.navbar-collapse{
+  margin: 0 1rem;
+}
+.nav-item{
+  font-size: 1.2rem;
+  color: white;
+  padding: 0 0.75rem;
+}
+.nav-item:hover{
+  font-size: 1.5rem;
+}
+
+
+/* Body*/
+
+#title{
+  height: auto;
+}
+#about{
+  height: auto;
+  padding: 4rem 4rem 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+#contacts{
+  height: auto;
+  padding: 4rem;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #e28a38;
+}
+
+
+.titcls{
+  text-align: center;
+  padding: 4rem 0;
+  color: white;
+  font-family: Merriweather;
+}
+.titcls h1{
+  font-size: 6.5rem;
+}
+.titcls h2{
+  font-size: 4.5rem;
+}
+.titcls h3{
+  font-size: 3.5rem;
+
+}
+
+.abtcls{
+  width: 80%;
+  color:#000000;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+#about h2{
+  font-size: 3rem;
+  font-family: Merriweather;
+}
+
+.concls{
+  width: 80%;
+  color: white;
+  font-family: Gentium;
+}
+.concls h2{
+  font-size: 3rem;
+  font-family: Merriweather;
+}
+.logos{
+  margin: 1rem 0.75rem 2.25rem;
+  height: 2.25rem;
+}
+
+/* Buttons */
+.btn{
+  margin: 2rem;
+  background-color: #e29a5e;
+}
+.btn:hover{
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 0.8rem;
+  font-family: Georgia;
+  color:  #e28a38;
+  background: white;
+  padding: 0.5rem;;
+  border: solid  #e28a38 2px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn{
+  background: #e28a38;
+  border-radius: 0.8rem;
+  font-size: 1.3rem;
+  background-image: -webkit-linear-gradient(top,  #e28a38, #401f00);
+  background-image: -moz-linear-gradient(top, #e28a38, #401f00);
+  background-image: -ms-linear-gradient(top,  #e28a38, #401f00);
+  background-image: -o-linear-gradient(top,  #e28a38, #401f00);
+  background-image: linear-gradient(to bottom,  #e28a38, #401f00);
+  text-decoration: none;
+  border: solid  #e28a38 2px;
+  color: white;
+}
+
+
+.bg1{
+  background-image: url(../assets/images/save-money.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-color:  #e9c46a;
+  background-blend-mode: soft-light;
+}
+
+
+@media screen and (max-width: 750px){
+  .nav-item{
+    font-size: 1rem;
+  }
+  .titcls h3{
+    font-size: 1.75rem;
+  }
+  .titcls h2{
+    font-size: 2.25rem;
+  }
+  .titcls h1{
+    font-size: 3.25rem;
+  }
+  h6{
+    font-size: 0.75rem;
+  }
+  .abtcls, .concls{
+    width: 90%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  #about h2{
+    font-size: 1.75rem;
+  }
+  #about p{
+    font-size: 1rem;
+  }
+  #contacts h2{
+    font-size: 1.75rem;
+  }
+  #about{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .logos{
+    height: 1.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .btn{
+    font-size: 1rem;
+  }
+}
